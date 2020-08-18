@@ -4,7 +4,7 @@ For a graph G, a matching of G is a set of edges {e_1,... e_j} such that no edge
 # This code
 Here are some programs that will allow the user to calculate and draw matching complexes of any graph. Included are programs to find the matching complex from the graph, find the graph from the matching complex, calculate iterated matchings, and find the Line graph of a given graph.
 
-Most of this code base was written by Zack Mcnulty.
+Most of this code base was written by Zack Mcnulty: https://github.com/zackmcnulty
 
 
 ### Code Instructions
