@@ -1,16 +1,10 @@
-# WXML
-Washington Experimental Mathematics Laboratory (WXML) is a computational-oriented mathematics research lab targeted for undergraduates.
-My teams project this quarter focused on matching complexes. A matching on a graph G is some subset (possibly empty) of the edges of G such that
-no edges in the subset are adjacent (share a vertex). The matching complex is the collection of all these subsets and is in turn a simplicial complex.
-Simplicial complexes are more abstract mathematical structures studied in a more general setting than what we did here, but to put it simply a simplicial
-complex on a set X is a subset of the powerset of X that is closed under subsets. Namely, if S is a simplicial complex, and x is in S, then so are all subsets of x 
-(remember x is an element of the powerset of X and hence a set itself).
+# Matching Complex
+For a graph G, a matching of G is a set of edges {e_1,... e_j} such that no edges in the set share an endpoint. The matching complex of a graph is the set of all matchings. This can be realized visually as a Simplicial Complex. For information on the math, check out *insert some stuff... link to paper?*.  
 
-You can find more information on [wikipedia](https://en.wikipedia.org/wiki/Simplicial_complex).
+# This code
+Here are some programs that will allow the user to calculate and draw matching complexes of any graph. Included are programs to find the matching complex from the graph, find the graph from the matching complex, calculate iterated matchings, and find the Line graph of a given graph.
 
-
-Lots of our team's inspiration came from this [paper](https://arxiv.org/abs/1906.03328). 
-
+Most of this code base was written by Zack Mcnulty.
 
 
 ### Code Instructions
