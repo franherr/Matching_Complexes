@@ -1,0 +1,29 @@
+def skel_matching (G, edge_labels=None):
+    '''
+        This finds the 1-skeleton of the matching of a given graph.
+        Same parameters and return as find_matching_complex
+    '''
+    if edge_labels is None:
+        edge_labels = {e: e for e in enumerate(G.edges())}
+
+    print(str(edge_labels))
+    size = len(edge_labels.keys())
+    print(size)
+
+    edges = edge_labels.keys()
+
+    for i in range(size) :
+        print(edges[i])
+        for j in range(i + 1, size) :
+            edge_set = (edges[i], edges[j])
+            print("possible matchings:", edge_set)
+        '''if len(edge_set) == 2:
+            if nx.algorithms.matching.is_matching(G, edge_set):
+                matchings.add(tuple([edge_labels[e] for e in edge_set]))
+                print(edge_set) '''
+
+    matchings = set([])
+
+    # find all possible matchings: improve this code if necessary
+
+    return matchings
